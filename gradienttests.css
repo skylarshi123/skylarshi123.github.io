@@ -1,0 +1,54 @@
+:root{
+    --ff-primary: 'Roboto Slab', serif;
+    --ff-secondary: 'Merriweather', serif;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+
+}
+
+body {
+    background: var(--clr-light);
+    color: var(--clr-dark);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+    line-height:1.6;
+}
+
+.darkish {
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+}
+
+.blueish {
+    background-color: rgba(1, 27, 145, 0.342);
+    color: white;
+}
+
+.Merriweather{
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+}
+
+.Roboto {
+    font-family:'Roboto Slab', serif;
+    font-size: 2rem;
+}
+
+#divbackground {
+    background-image: linear-gradient(to bottom right, rgb(0, 81, 87), rgba(27, 176, 196, 0.281)) ;
+}
+
+.div2background{
+    background-image: linear-gradient(to bottom right, rgb(92, 134, 182), rgba(39, 163, 194, 0.281)) ;
+}

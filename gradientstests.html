@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skylar's Portfolio</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,900&family=Roboto+Slab:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            placeholder for logo
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Introduction-->
+    <div class="container w-100">
+        <div class="container w-100 position-relative">
+            <div class="row" id="divbackground">
+                <div class="col-0 col-sm-3"></div>
+                <div class="col-12 col-sm-4 ms-2 ps-3">
+                    <img src="./public/images/Skylar Shi Picture.jpeg" alt="Picture of ME!" class="w-55 vh-55">
+                </div>
+                <div class="col-0 col-sm-3">
+                    <h1 class="Roboto mt-5">
+                        Hi, I am
+                    </h1>
+                    <h1 class="Roboto">
+                        <strong>Skylar Shi</strong>
+                    </h1>
+                    <h1 class="Merriweather">
+                        Welcome to my website
+                    </h1>
+                </div>
+            </div>
+        </div>
+
+    <!--My services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__tile--services Merriweather text-center mb-0 div2background pt-4 pb-4 display-3">What I love!</h2>
+        <div class="container">
+        <div class="row min-vh-25" style="background-image: url(./public/images/InterestsBackground.jpg);">
+            <div class="col darkish">
+                <h3>Cybersecurity</h3>
+                <p>I have four certifications: Network+, Security+, AWS Cloud Practioner, Azure Fundamentals</p>
+            </div> 
+
+            <div class="col blueish">
+                <h3>Golf</h3>
+                <p>I started playing when I was 7 and have continued to play. I like playing with my golf teamates and we won CIF champions when I was a junior in high school.</p>
+            </div> 
+
+            <div class="col darkish">
+                <h3>Teaching</h3>
+                <p>Whether it be mentoring academically or tutoring in math, I love to teach when I have the chance. At my high school, I enjoyed teaching students Cybersecurity! To spread my reach, I even created a youtube channel to share my IT exam strategies and how I studied. The link is in the footer.</p>
+            </div> 
+
+            <div class="col blueish">
+                <h3>Computer Science</h3>
+                <p>Computer Science is my intended major. I have practiced coding dashboards, eccomerce website, and many more. This website is also one that I made.</p>
+            </div> 
+
+        </div><!-- / services -->
+    </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about"></p>
+            <div class="about-me__body">
+                <p></p>
+                <p></p>
+            </div>
+            <img src="./public/images/RSApictureTurbinePanda.jpeg" alt="Me next to Turbine Panda at RSA" class="mw-100">
+        </section>
+        
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title">My work</h2>
+            <p class="section__subtitle"></p>
+            <div class="portfolio w-100">
+                <!-- Portfolio item 01 -->
+                <a href="#" class="portfolio__item">
+                    <img src="./public/images/RSAoverview.jpeg" alt="" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 02 -->
+                <a href="#" class="portfolio__item">
+                    <img src="./public/images/RSAoverview.jpeg" alt="" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="./public/images/RSAoverview.jpeg" alt="" class="portfolio__img">
+                </a>
+                <!-- Portfolio item 04 -->
+                <a href="#" class="portfolio__item">
+                    <img src="./public/images/RSAoverview.jpeg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        </div>
+        <!-- Footer -->
+        <footer>
+            <a href="mailto:skylarshi123@gmail.com" class="footer__link">skylarshi123@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item"><a href="https://github.com/skylarshi123" class="social-list__link">My github</a></li>
+                <li class="social-list__item"><a href="https://www.youtube.com/watch?v=QCNwsZJvb04&list=PLTuCHfA0tUbU8h_jTQjkehAjAzs0e78oe" class="social-list__link">My youtube channel</a></li>
+                <li class="social-list__item"><a href="" class="social-list__link">c</a></li>
+                <li class="social-list__item"><a href="" class="social-list__link">d</a></li>
+            </ul>
+        </footer>
+</body>
+</html>

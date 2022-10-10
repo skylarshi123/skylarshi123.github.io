@@ -1,0 +1,37 @@
+
+
+.darkish {
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+}
+
+.blueish {
+    background-color: rgba(1, 27, 145, 0.322);
+    color: white;
+}
+
+.Merriweather{
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+}
+
+.Roboto {
+    font-family:'Roboto Slab', serif;
+    font-size: 2rem;
+}
+
+#divbackground {
+    background-image: linear-gradient(to bottom right, rgb(1, 64, 68), rgba(27, 176, 196, 0.788)) ;
+}
+
+.div2background{
+    background-image: linear-gradient(to bottom right, rgb(53, 96, 145), rgba(39, 163, 194, 0.74)) ;
+}
+
+.lightblack {
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.stack {
+    z-index: 99999;
+}
